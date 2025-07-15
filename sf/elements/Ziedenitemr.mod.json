@@ -13,19 +13,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Coybenitemblock"
+        "value": "CUSTOM:Ziedenitemblock"
       },
       {
-        "value": "CUSTOM:Coybenitemblock"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Coybenitemblock"
+        "value": "CUSTOM:Ziedenitemblock"
       },
       {
         "value": ""
@@ -34,16 +25,25 @@
         "value": ""
       },
       {
+        "value": "CUSTOM:Ziedenitemblock"
+      },
+      {
         "value": ""
       },
       {
-        "value": "CUSTOM:Coybenitemblock"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ziedenitemblock"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Coybenitem"
+      "value": "CUSTOM:Ziedenitem"
     },
-    "name": "coybenitemr",
+    "name": "ziedenitemr",
     "namespace": "mod"
   }
 }

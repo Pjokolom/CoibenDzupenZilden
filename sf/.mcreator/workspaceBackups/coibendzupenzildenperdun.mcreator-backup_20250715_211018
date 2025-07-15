@@ -271,30 +271,6 @@
           "src/main/resources/data/coibendzupenzildenperdun/recipe/coybenitemr.json"
         ]
       }
-    },
-    {
-      "name": "Ziedenitemr",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ziedenitemr",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/coibendzupenzildenperdun/recipe/ziedenitemr.json"
-        ]
-      }
-    },
-    {
-      "name": "Frupenitemr",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "frupenitemr",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/coibendzupenzildenperdun/recipe/frupenitemr.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],

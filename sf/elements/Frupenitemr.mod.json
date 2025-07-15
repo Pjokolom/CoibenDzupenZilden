@@ -13,19 +13,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Coybenitemblock"
+        "value": "CUSTOM:Frupenitemblock"
       },
       {
-        "value": "CUSTOM:Coybenitemblock"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Coybenitemblock"
+        "value": "CUSTOM:Frupenitemblock"
       },
       {
         "value": ""
@@ -34,16 +25,25 @@
         "value": ""
       },
       {
+        "value": "CUSTOM:Frupenitemblock"
+      },
+      {
         "value": ""
       },
       {
-        "value": "CUSTOM:Coybenitemblock"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Frupenitemblock"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Coybenitem"
+      "value": "CUSTOM:Frupenitem"
     },
-    "name": "coybenitemr",
+    "name": "frupenitemr",
     "namespace": "mod"
   }
 }
