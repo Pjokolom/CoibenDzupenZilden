@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/oxidized_copper_trapdoor",
+    "up": "minecraft:block/oxidized_copper_trapdoor",
+    "north": "minecraft:block/oxidized_copper_trapdoor",
+    "east": "minecraft:block/oxidized_copper_trapdoor",
+    "south": "minecraft:block/oxidized_copper_trapdoor",
+    "west": "minecraft:block/oxidized_copper_trapdoor",
+    "particle": "minecraft:block/oxidized_copper_trapdoor"
+  },
+  "render_type": "solid"
+}
