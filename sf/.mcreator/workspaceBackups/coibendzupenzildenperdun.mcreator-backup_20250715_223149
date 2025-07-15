@@ -337,6 +337,54 @@
           "src/main/java/net/mcreator/coibendzupenzildenperdun/procedures/GlobalmusicniggerProcedure.java"
         ]
       }
+    },
+    {
+      "name": "PistoletRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistolet_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/coibendzupenzildenperdun/procedures/PistoletRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Pistolet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistolet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coibendzupenzildenperdun/models/item/pistolet.json",
+          "src/main/java/net/mcreator/coibendzupenzildenperdun/item/PistoletItem.java",
+          "src/main/resources/assets/coibendzupenzildenperdun/items/pistolet.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -408,11 +456,13 @@
       "item.coibendzupenzildenperdun.frupenitem": "Frupenitem",
       "item.coibendzupenzildenperdun.biebenitem": "Frupenitem",
       "item.coibendzupenzildenperdun.ziedenitem": "Frupenitem",
-      "item.coibendzupenzildenperdun.coybenitem": "Frupenitem"
+      "item.coibendzupenzildenperdun.coybenitem": "Frupenitem",
+      "item.coibendzupenzildenperdun.pistolet": "Pistolet"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/coibendzupenzildenperdun/init/CoibendzupenzildenperdunModTabs.java",
       "src/main/java/net/mcreator/coibendzupenzildenperdun/CoibendzupenzildenperdunMod.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",

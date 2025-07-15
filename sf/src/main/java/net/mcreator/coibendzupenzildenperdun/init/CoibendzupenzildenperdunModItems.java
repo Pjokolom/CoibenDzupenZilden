@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.coibendzupenzildenperdun.item.ZiedenitemItem;
+import net.mcreator.coibendzupenzildenperdun.item.PistoletItem;
 import net.mcreator.coibendzupenzildenperdun.item.FrupenitemItem;
 import net.mcreator.coibendzupenzildenperdun.item.CoybenitemItem;
 import net.mcreator.coibendzupenzildenperdun.item.BiebenitemItem;
@@ -37,6 +38,7 @@ public class CoibendzupenzildenperdunModItems {
 	public static final DeferredItem<Item> BIEBENITEM = register("biebenitem", BiebenitemItem::new);
 	public static final DeferredItem<Item> ZIEDENITEM = register("ziedenitem", ZiedenitemItem::new);
 	public static final DeferredItem<Item> COYBENITEM = register("coybenitem", CoybenitemItem::new);
+	public static final DeferredItem<Item> PISTOLET = register("pistolet", PistoletItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -22,6 +22,8 @@ public class CoibendzupenzildenperdunModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(CoibendzupenzildenperdunModBlocks.COYBENITEMBLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(CoibendzupenzildenperdunModItems.PISTOLET.get());
 		}
 	}
 }
