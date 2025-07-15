@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/brewing_stand",
+    "up": "minecraft:block/brewing_stand",
+    "north": "minecraft:block/brewing_stand",
+    "east": "minecraft:block/brewing_stand",
+    "south": "minecraft:block/brewing_stand",
+    "west": "minecraft:block/brewing_stand",
+    "particle": "minecraft:block/brewing_stand"
+  },
+  "render_type": "solid"
+}

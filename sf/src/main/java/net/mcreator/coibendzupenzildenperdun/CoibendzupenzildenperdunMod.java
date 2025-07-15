@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.coibendzupenzildenperdun.init.CoibendzupenzildenperdunModTabs;
 import net.mcreator.coibendzupenzildenperdun.init.CoibendzupenzildenperdunModSounds;
 import net.mcreator.coibendzupenzildenperdun.init.CoibendzupenzildenperdunModItems;
 import net.mcreator.coibendzupenzildenperdun.init.CoibendzupenzildenperdunModBlocks;
@@ -43,6 +44,8 @@ public class CoibendzupenzildenperdunMod {
 		CoibendzupenzildenperdunModBlocks.REGISTRY.register(modEventBus);
 
 		CoibendzupenzildenperdunModItems.REGISTRY.register(modEventBus);
+
+		CoibendzupenzildenperdunModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
