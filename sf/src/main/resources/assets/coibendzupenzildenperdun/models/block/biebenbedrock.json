@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/carved_pumpkin",
+    "up": "minecraft:block/carved_pumpkin",
+    "north": "minecraft:block/carved_pumpkin",
+    "east": "minecraft:block/carved_pumpkin",
+    "south": "minecraft:block/carved_pumpkin",
+    "west": "minecraft:block/carved_pumpkin",
+    "particle": "minecraft:block/carved_pumpkin"
+  },
+  "render_type": "solid"
+}

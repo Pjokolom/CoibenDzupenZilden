@@ -18,6 +18,15 @@ import java.util.function.Function;
 public class CoibendzupenzildenperdunModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(CoibendzupenzildenperdunMod.MODID);
 	public static final DeferredItem<Item> COYBEN = block(CoibendzupenzildenperdunModBlocks.COYBEN);
+	public static final DeferredItem<Item> ZIEDEN = block(CoibendzupenzildenperdunModBlocks.ZIEDEN);
+	public static final DeferredItem<Item> FRUPEN = block(CoibendzupenzildenperdunModBlocks.FRUPEN);
+	public static final DeferredItem<Item> BIEBEN = block(CoibendzupenzildenperdunModBlocks.BIEBEN);
+	public static final DeferredItem<Item> BIEBENBEDROCK = block(CoibendzupenzildenperdunModBlocks.BIEBENBEDROCK);
+	public static final DeferredItem<Item> COYBENBEDROCK = block(CoibendzupenzildenperdunModBlocks.COYBENBEDROCK);
+	public static final DeferredItem<Item> ZIEDENBEDROCK = block(CoibendzupenzildenperdunModBlocks.ZIEDENBEDROCK);
+	public static final DeferredItem<Item> FRUPENBEDROCK = block(CoibendzupenzildenperdunModBlocks.FRUPENBEDROCK);
+	public static final DeferredItem<Item> COYBENITEMBLOCK = block(CoibendzupenzildenperdunModBlocks.COYBENITEMBLOCK);
+	public static final DeferredItem<Item> ZIEDENITEMBLOCK = block(CoibendzupenzildenperdunModBlocks.ZIEDENITEMBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

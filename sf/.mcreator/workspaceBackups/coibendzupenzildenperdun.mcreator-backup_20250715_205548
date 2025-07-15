@@ -135,74 +135,6 @@
           "src/main/resources/assets/coibendzupenzildenperdun/items/frupenbedrock.json"
         ]
       }
-    },
-    {
-      "name": "Coybenitemblock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coybenitemblock",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/coibendzupenzildenperdun/models/block/coybenitemblock.json",
-          "src/main/resources/data/coibendzupenzildenperdun/loot_table/blocks/coybenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/models/item/coybenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/items/coybenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/blockstates/coybenitemblock.json",
-          "src/main/java/net/mcreator/coibendzupenzildenperdun/block/CoybenitemblockBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "Ziedenitemblock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ziedenitemblock",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/coibendzupenzildenperdun/models/item/ziedenitemblock.json",
-          "src/main/resources/data/coibendzupenzildenperdun/loot_table/blocks/ziedenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/models/block/ziedenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/items/ziedenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/blockstates/ziedenitemblock.json",
-          "src/main/java/net/mcreator/coibendzupenzildenperdun/block/ZiedenitemblockBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "Biebenitemblock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "biebenitemblock",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coibendzupenzildenperdun/block/BiebenitemblockBlock.java",
-          "src/main/resources/assets/coibendzupenzildenperdun/models/block/biebenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/blockstates/biebenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/items/biebenitemblock.json",
-          "src/main/resources/data/coibendzupenzildenperdun/loot_table/blocks/biebenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/models/item/biebenitemblock.json"
-        ]
-      }
-    },
-    {
-      "name": "Frupenitemblock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "frupenitemblock",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coibendzupenzildenperdun/block/FrupenitemblockBlock.java",
-          "src/main/resources/assets/coibendzupenzildenperdun/blockstates/frupenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/models/block/frupenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/items/frupenitemblock.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/models/item/frupenitemblock.json",
-          "src/main/resources/data/coibendzupenzildenperdun/loot_table/blocks/frupenitemblock.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -218,11 +150,7 @@
       "item.coibendzupenzildenperdun.biebenbedrock": "Biebenbedrock",
       "item.coibendzupenzildenperdun.coybenbedrock": "Coyben",
       "item.coibendzupenzildenperdun.ziedenbedrock": "Zieden",
-      "item.coibendzupenzildenperdun.frupenbedrock": "Frupen",
-      "item.coibendzupenzildenperdun.coybenitemblock": "Coybenitemblock",
-      "item.coibendzupenzildenperdun.ziedenitemblock": "Ziedenitemblock",
-      "item.coibendzupenzildenperdun.biebenitemblock": "Bieben",
-      "item.coibendzupenzildenperdun.frupenitemblock": "Frupen"
+      "item.coibendzupenzildenperdun.frupenbedrock": "Frupen"
     }
   },
   "metadata": {
