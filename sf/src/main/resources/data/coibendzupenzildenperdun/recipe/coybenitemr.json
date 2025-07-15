@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    " a ",
+    "  a"
+  ],
+  "key": {
+    "a": "coibendzupenzildenperdun:frupenitemblock"
+  },
+  "result": {
+    "id": "coibendzupenzildenperdun:coybenitem",
+    "count": 1
+  }
+}

@@ -9,13 +9,16 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.coibendzupenzildenperdun.block.ZiedenitemblockBlock;
 import net.mcreator.coibendzupenzildenperdun.block.ZiedenbedrockBlock;
 import net.mcreator.coibendzupenzildenperdun.block.ZiedenBlock;
+import net.mcreator.coibendzupenzildenperdun.block.FrupenitemblockBlock;
 import net.mcreator.coibendzupenzildenperdun.block.FrupenbedrockBlock;
 import net.mcreator.coibendzupenzildenperdun.block.FrupenBlock;
 import net.mcreator.coibendzupenzildenperdun.block.CoybenitemblockBlock;
 import net.mcreator.coibendzupenzildenperdun.block.CoybenbedrockBlock;
 import net.mcreator.coibendzupenzildenperdun.block.CoybenBlock;
+import net.mcreator.coibendzupenzildenperdun.block.BiebenitemblockBlock;
 import net.mcreator.coibendzupenzildenperdun.block.BiebenbedrockBlock;
 import net.mcreator.coibendzupenzildenperdun.block.BiebenBlock;
 import net.mcreator.coibendzupenzildenperdun.CoibendzupenzildenperdunMod;
@@ -34,6 +37,8 @@ public class CoibendzupenzildenperdunModBlocks {
 	public static final DeferredBlock<Block> FRUPENBEDROCK = register("frupenbedrock", FrupenbedrockBlock::new);
 	public static final DeferredBlock<Block> COYBENITEMBLOCK = register("coybenitemblock", CoybenitemblockBlock::new);
 	public static final DeferredBlock<Block> ZIEDENITEMBLOCK = register("ziedenitemblock", ZiedenitemblockBlock::new);
+	public static final DeferredBlock<Block> BIEBENITEMBLOCK = register("biebenitemblock", BiebenitemblockBlock::new);
+	public static final DeferredBlock<Block> FRUPENITEMBLOCK = register("frupenitemblock", FrupenitemblockBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

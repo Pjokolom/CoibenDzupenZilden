@@ -11,6 +11,10 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.coibendzupenzildenperdun.item.ZiedenitemItem;
+import net.mcreator.coibendzupenzildenperdun.item.FrupenitemItem;
+import net.mcreator.coibendzupenzildenperdun.item.CoybenitemItem;
+import net.mcreator.coibendzupenzildenperdun.item.BiebenitemItem;
 import net.mcreator.coibendzupenzildenperdun.CoibendzupenzildenperdunMod;
 
 import java.util.function.Function;
@@ -27,6 +31,12 @@ public class CoibendzupenzildenperdunModItems {
 	public static final DeferredItem<Item> FRUPENBEDROCK = block(CoibendzupenzildenperdunModBlocks.FRUPENBEDROCK);
 	public static final DeferredItem<Item> COYBENITEMBLOCK = block(CoibendzupenzildenperdunModBlocks.COYBENITEMBLOCK);
 	public static final DeferredItem<Item> ZIEDENITEMBLOCK = block(CoibendzupenzildenperdunModBlocks.ZIEDENITEMBLOCK);
+	public static final DeferredItem<Item> BIEBENITEMBLOCK = block(CoibendzupenzildenperdunModBlocks.BIEBENITEMBLOCK);
+	public static final DeferredItem<Item> FRUPENITEMBLOCK = block(CoibendzupenzildenperdunModBlocks.FRUPENITEMBLOCK);
+	public static final DeferredItem<Item> FRUPENITEM = register("frupenitem", FrupenitemItem::new);
+	public static final DeferredItem<Item> BIEBENITEM = register("biebenitem", BiebenitemItem::new);
+	public static final DeferredItem<Item> ZIEDENITEM = register("ziedenitem", ZiedenitemItem::new);
+	public static final DeferredItem<Item> COYBENITEM = register("coybenitem", CoybenitemItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

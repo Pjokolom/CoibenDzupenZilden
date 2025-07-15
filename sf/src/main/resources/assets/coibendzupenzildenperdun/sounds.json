@@ -1,0 +1,50 @@
+{
+  "music1": {
+    "sounds": [
+      {
+        "name": "coibendzupenzildenperdun:81cebf7e45fdef7",
+        "stream": false
+      },
+      {
+        "name": "coibendzupenzildenperdun:c26baac1db252bd_1",
+        "stream": false
+      },
+      {
+        "name": "coibendzupenzildenperdun:48bb90af8e1e401_1",
+        "stream": false
+      }
+    ]
+  },
+  "sound1": {
+    "sounds": [
+      {
+        "name": "coibendzupenzildenperdun:da-kaaaaak",
+        "stream": false
+      }
+    ]
+  },
+  "sound2": {
+    "sounds": [
+      {
+        "name": "coibendzupenzildenperdun:aaa-sejchas-ja-budu-vas-rezat",
+        "stream": false
+      }
+    ]
+  },
+  "sound3": {
+    "sounds": [
+      {
+        "name": "coibendzupenzildenperdun:najs-djemejdzh-najs-balans",
+        "stream": false
+      }
+    ]
+  },
+  "sound4": {
+    "sounds": [
+      {
+        "name": "coibendzupenzildenperdun:ja-samyj-adekvatnyj-v-mire",
+        "stream": false
+      }
+    ]
+  }
+}

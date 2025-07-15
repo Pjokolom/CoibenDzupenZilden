@@ -203,121 +203,10 @@
           "src/main/resources/data/coibendzupenzildenperdun/loot_table/blocks/frupenitemblock.json"
         ]
       }
-    },
-    {
-      "name": "Frupenitem",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "frupenitem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coibendzupenzildenperdun/item/FrupenitemItem.java",
-          "src/main/resources/assets/coibendzupenzildenperdun/items/frupenitem.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/models/item/frupenitem.json"
-        ]
-      }
-    },
-    {
-      "name": "Biebenitem",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "biebenitem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coibendzupenzildenperdun/item/BiebenitemItem.java",
-          "src/main/resources/assets/coibendzupenzildenperdun/items/biebenitem.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/models/item/biebenitem.json"
-        ]
-      }
-    },
-    {
-      "name": "Ziedenitem",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ziedenitem",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/coibendzupenzildenperdun/items/ziedenitem.json",
-          "src/main/java/net/mcreator/coibendzupenzildenperdun/item/ZiedenitemItem.java",
-          "src/main/resources/assets/coibendzupenzildenperdun/models/item/ziedenitem.json"
-        ]
-      }
-    },
-    {
-      "name": "Coybenitem",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coybenitem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coibendzupenzildenperdun/item/CoybenitemItem.java",
-          "src/main/resources/assets/coibendzupenzildenperdun/models/item/coybenitem.json",
-          "src/main/resources/assets/coibendzupenzildenperdun/items/coybenitem.json"
-        ]
-      }
-    },
-    {
-      "name": "Coybenitemr",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coybenitemr",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/coibendzupenzildenperdun/recipe/coybenitemr.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [
-    {
-      "name": "music1",
-      "files": [
-        "81cebf7e45fdef7",
-        "c26baac1db252bd_1",
-        "48bb90af8e1e401_1"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
-      "name": "sound1",
-      "files": [
-        "da-kaaaaak"
-      ],
-      "category": "master",
-      "subtitle": ""
-    },
-    {
-      "name": "sound2",
-      "files": [
-        "aaa-sejchas-ja-budu-vas-rezat"
-      ],
-      "category": "master",
-      "subtitle": ""
-    },
-    {
-      "name": "sound3",
-      "files": [
-        "najs-djemejdzh-najs-balans"
-      ],
-      "category": "master",
-      "subtitle": ""
-    },
-    {
-      "name": "sound4",
-      "files": [
-        "ja-samyj-adekvatnyj-v-mire"
-      ],
-      "category": "master",
-      "subtitle": ""
-    }
-  ],
+  "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
@@ -333,16 +222,7 @@
       "item.coibendzupenzildenperdun.coybenitemblock": "Coybenitemblock",
       "item.coibendzupenzildenperdun.ziedenitemblock": "Ziedenitemblock",
       "item.coibendzupenzildenperdun.biebenitemblock": "Bieben",
-      "item.coibendzupenzildenperdun.frupenitemblock": "Frupen",
-      "subtitles.music1": "",
-      "subtitles.sound1": "",
-      "subtitles.sound2": "",
-      "subtitles.sound3": "",
-      "subtitles.sound4": "",
-      "item.coibendzupenzildenperdun.frupenitem": "Frupenitem",
-      "item.coibendzupenzildenperdun.biebenitem": "Frupenitem",
-      "item.coibendzupenzildenperdun.ziedenitem": "Frupenitem",
-      "item.coibendzupenzildenperdun.coybenitem": "Frupenitem"
+      "item.coibendzupenzildenperdun.frupenitemblock": "Frupen"
     }
   },
   "metadata": {
@@ -350,8 +230,6 @@
       "src/main/java/net/mcreator/coibendzupenzildenperdun/CoibendzupenzildenperdunMod.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/coibendzupenzildenperdun/init/CoibendzupenzildenperdunModSounds.java",
-      "src/main/resources/assets/coibendzupenzildenperdun/sounds.json",
       "src/main/java/net/mcreator/coibendzupenzildenperdun/init/CoibendzupenzildenperdunModBlocks.java",
       "src/main/java/net/mcreator/coibendzupenzildenperdun/init/CoibendzupenzildenperdunModItems.java"
     ]

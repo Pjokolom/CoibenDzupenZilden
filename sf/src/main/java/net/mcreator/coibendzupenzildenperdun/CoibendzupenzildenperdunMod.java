@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.coibendzupenzildenperdun.init.CoibendzupenzildenperdunModSounds;
 import net.mcreator.coibendzupenzildenperdun.init.CoibendzupenzildenperdunModItems;
 import net.mcreator.coibendzupenzildenperdun.init.CoibendzupenzildenperdunModBlocks;
 
@@ -38,7 +39,7 @@ public class CoibendzupenzildenperdunMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
+		CoibendzupenzildenperdunModSounds.REGISTRY.register(modEventBus);
 		CoibendzupenzildenperdunModBlocks.REGISTRY.register(modEventBus);
 
 		CoibendzupenzildenperdunModItems.REGISTRY.register(modEventBus);
